@@ -19,6 +19,8 @@ gem 'devise'
 # Use stripe for handling payments
 gem 'stripe'
 
+# Use figaro to hide secret keys
+gem 'figaro'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use bootstrap library for styles
@@ -59,4 +61,3 @@ gem 'spring',        group: :development
 group :development, :test do
   gem 'sqlite3'
  end
-gem 'pg', group: :production
